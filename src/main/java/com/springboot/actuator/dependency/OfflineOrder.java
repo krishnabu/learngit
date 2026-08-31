@@ -9,6 +9,6 @@ import org.springframework.stereotype.Component;
 @ConditionalOnProperty(prefix = "offlineorder",value = "enable",havingValue = "true",matchIfMissing = false)
 public class OfflineOrder implements Order{
     public String order(){
-        return "OfflineOrderokok";
+        return "OfflineOrderokoksriram";
     }
 }
