@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ActuatorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ActuatorApplication.class, args);
+        SpringApplication.run(ActuatorApplication.class, args);
+        System.out.println("hello");
 	}
 
 }
